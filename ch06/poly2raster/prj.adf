@@ -1,0 +1,6 @@
+Projection    GEOGRAPHIC
+Datum         MIN_B
+Spheroid      CLARKE1880
+Units         DD
+Zunits        NO
+Parameters    

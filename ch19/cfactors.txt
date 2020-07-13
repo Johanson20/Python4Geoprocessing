@@ -1,0 +1,6 @@
+C-factor,Label
+1,stable
+2,low disposition
+3,moderate disposition
+4,high disposition
+5,severe disposition
