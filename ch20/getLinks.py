@@ -15,4 +15,4 @@ with open(basedir + 'data/ch20/htmlExamplePages/elephant2.html', 'r') as infile:
 
     # Print each hyperlink reference.
     for linkTag in linkTags:
-        print 'Link: {0}'.format(linkTag['href'])
+        print('Link: {0}'.format(linkTag['href']))

@@ -38,7 +38,7 @@ def python2htmlList(L, listType):
 def string2List(delimiter, s):
     '''Take a delimited string and return a list'''
     L = s.split(delimiter)
-    print L
+    print(L)
     return L
 
 
@@ -65,13 +65,13 @@ if __name__ == '__main__':
     # Get a string from the list.
     theOutString = list2String(delimiter, theListUnique)
 
-    print '{0} -> {1}'.format(theString, theOutString)
+    print('{0} -> {1}'.format(theString, theOutString))
 
     ## Test 2
     theOtherList = ['foo', 'bla', 'bla', 'bla', 'bla', 'fee', 'fi', 'fo', 'fum']
     output = uniqueList(theOtherList)
-    print '{0} -> {1}'.format(theOtherList, output)
+    print('{0} -> {1}'.format(theOtherList, output))
 
     # Generate an HTML list from a Python list.
     htmlList = python2htmlList(theList, 'ol')
-    print htmlList
+    print(htmlList)

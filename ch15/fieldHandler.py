@@ -21,6 +21,6 @@ inputF = 'C:\Users\owner\Downloads\Sample_scripts\ch06\shapefiles\Lagos_GPS_GCPs
 names = getFieldNames(inputF)
 fieldName = 'COVER'
 result = fieldExists(inputF, fieldName)
-print 'Does field "{0}" exist? {1}'.format(fieldName, result)
+print('Does field "{0}" exist? {1}'.format(fieldName, result))
 result = fieldExists(inputF, 'Value')
-print 'Does field "Value" exist? {0}'.format(result)
+print('Does field "Value" exist? {0}'.format(result))

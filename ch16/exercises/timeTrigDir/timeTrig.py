@@ -8,8 +8,6 @@
 # Author:      Johanson Onyegbula
 #
 # Created:     12/06/2020
-# Copyright:   (c) owner 2020
-# Licence:     <your licence>
 #-------------------------------------------------------------------------------
 import os, sys
 scriptPath = os.path.abspath(__file__)

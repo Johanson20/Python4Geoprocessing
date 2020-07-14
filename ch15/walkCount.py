@@ -19,12 +19,12 @@ for root, dirs, files in arcpy.da.Walk(mydir):
     for f in files:
         try:
             count = arcpy.GetCount_management(root + "/" + f)
-            print '{0}/{1}  Count = {2}'.format(root, f, count)
+            print('{0}/{1}  Count = {2}'.format(root, f, count))
         except arcpy.ExecuteError:
-            print arcpy.GetMessages()
+            print(arcpy.GetMessages())
 
 after = datetime.datetime.now()
 
 t = diffTime(before, after)
 
-print 'Time elapsed: {0} weeks, {1} days, {2}:{3}:{4}'.format(t[0], t[1], t[2], t[3], t[4])
+print('Time elapsed: {0} weeks, {1} days, {2}:{3}:{4}'.format(t[0], t[1], t[2], t[3], t[4]))

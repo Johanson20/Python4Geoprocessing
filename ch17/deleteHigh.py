@@ -7,8 +7,6 @@
 # Author:      Johanson Onyegbula
 #
 # Created:     19/06/2020
-# Copyright:   (c) owner 2020
-# Licence:     <your licence>
 #-------------------------------------------------------------------------------
 import sys, arcpy, traceback, os
 

@@ -1,18 +1,16 @@
 #-------------------------------------------------------------------------------
 # Name:        rasterNames.py
 # Purpose:     Prints jpg rasters in a semi-colon delimited list
-#
+# Usage:       An input workspace required
 # Author:      Johanson Onyegbula
 #
 # Created:     05/06/2020
-# Copyright:   (c) owner 2020
-# Licence:     <your licence>
 #-------------------------------------------------------------------------------
 import arcpy, sys
 
 def main():
-    workspace = sys.argv[1]
-    jpgfiles = arcpy.ListRasters('*', 'JP2')
+    arcpy.env.workspace = sys.argv[1]
+    jpgfiles = arcpy.ListRasters('*', 'JPG')
     ';'.join(jpgfiles)
     print(jpgfiles)
 

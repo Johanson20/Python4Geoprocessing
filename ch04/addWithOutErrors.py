@@ -7,8 +7,8 @@
 import sys
 
 # Get the 1st user argument. Cast it to float.
-a = int(sys.argv[1])
+a = float(sys.argv[1])
 # Get the 2nd user argument. Cast it to float too.
-b = int(sys.argv[2])
+b = float(sys.argv[2])
 c = a + b
 print("The sum is {0}.".format(c))

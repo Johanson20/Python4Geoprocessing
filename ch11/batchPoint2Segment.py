@@ -5,8 +5,6 @@
 # Author:      Johanson Onyegbula
 #
 # Created:     05/06/2020
-# Copyright:   (c) owner 2020
-# Licence:     <your licence>
 #-------------------------------------------------------------------------------
 import arcpy, sys, os
 

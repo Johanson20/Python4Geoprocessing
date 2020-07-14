@@ -15,5 +15,5 @@ def getIndex(delimString, delimiter, name):
 
 with open(infile, 'r') as f:
     row = f.readline()
-    ind = getIndex(row, ' ', fieldName)
+    ind = getIndex(row, ',', fieldName)
     print('{0} has index {1}'.format(fieldName, ind))

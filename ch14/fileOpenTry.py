@@ -12,15 +12,14 @@ filename = sys.argv[1]
 ### put this inside a TRY block
 try:
     file = open(filename, "r")
-except IOError:
-    print("Warning: could not open: {}".format(filename))
-    sys.exit(0)
 ### Insert a named EXCEPT block.
 ### Inside the block print the warning and then call the system exit function,
 ###     so that it doesn't reach the code below if an exception has occurred.
+except IOError:
+    print("Warning: could not open: {}".format(filename))
+    sys.exit(0)
 
 ### No need to modify below this line.
-
 # Read in the entire file and print the file contents
 contents = file.readlines()
 for line in contents:

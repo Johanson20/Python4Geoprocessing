@@ -8,8 +8,6 @@
 # Author:      Johanson Onyegbula
 #
 # Created:     25/06/2020
-# Copyright:   (c) owner 2020
-# Licence:     <your licence>
 #-------------------------------------------------------------------------------
 import sys, os
 

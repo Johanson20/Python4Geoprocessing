@@ -1,5 +1,5 @@
 # cfactor.py
-# Purpose: Read a text file contents into a dictionary.
+# Purpose: Read a text file's contents into a dictionary.
 # Input: No arguments required.  Input file hard-coded.
 # Output: Printed cfactor:label dictionary.
 

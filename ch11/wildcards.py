@@ -1,8 +1,9 @@
 # wildcards.py
 # Purpose: Use a wildcard to selectively list files.
+# Usage: Accepts one argument - an input workspace
 
 import arcpy
-arcpy.env.workspace = 'C:/gispy/data/ch11/rastTester.gdb'
+arcpy.env.workspace = sys.argv[1]
 
 # a. Use '*' or empty parentheses to list ALL the rasters in the workspace.
 rasts = arcpy.ListRasters('*')

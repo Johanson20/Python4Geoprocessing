@@ -6,4 +6,4 @@ b = input('Enter second integer: ')
 
 c = a * b
 # format(c) substitutes the value of c for {0} in the print statement.
-print 'The product of {1} and {2} is {0}.'.format(c,a,b)
+print('The product of {1} and {2} is {0}.'.format(c,a,b))
